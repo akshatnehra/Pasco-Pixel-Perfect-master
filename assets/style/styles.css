@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  height: 40px;
+  background-color: #191919;
+}
+header .header-components-container {
+  width: 1170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+header .header-components-container .left-icon-container {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+header .header-components-container .left-icon-container a {
+  align-items: center;
+  height: 16px;
+  margin-bottom: 25px;
+}
+header .header-components-container .left-icon-container i {
+  color: #707070;
+  padding-right: 14px;
+}
+header .header-components-container .left-icon-container img {
+  height: 15px;
+  margin-right: 12px;
+}
+header .header-components-container .right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.25px;
+  font-weight: 600;
+  color: #6d6c6d;
+  letter-spacing: 0.625px;
+  padding-top: 2px;
+}
+header .header-components-container .right-container i {
+  margin-right: 7px;
+}
+header .header-components-container .right-container #lang-ico-nav {
+  font-size: 18px;
+  margin-right: 7px;
+}
+header .header-components-container .right-container .small-img {
+  height: 16px;
+}
+header .header-components-container .right-container #arrow-down {
+  margin-left: 3.75px;
+}
+header .header-components-container .right-container #symbol {
+  margin-left: 14px;
+  margin-right: 13px;
+  height: 20px;
+  width: 1px;
+  background-color: #545454;
+}
+header .header-components-container .right-container #nav-lang {
+  margin-left: 5px;
+  margin-right: 0px;
+}
+header .header-components-container .right-container .sign-in-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header .header-components-container .right-container .language-select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: flex-start;
+  position: relative;
+  padding-bottom: 67px;
+  background-image: url(/assets/images/bg_copy_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body-container .background-image {
+  position: absolute;
+  z-index: -1;
+  opacity: 90%;
+  filter: brightness(40%);
+}
+.body-container #bg {
+  width: 98.89vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.body-container .left-button {
+  position: absolute;
+  left: 42px;
+  top: 373px;
+}
+.body-container .left-button img {
+  height: 22px;
+}
+.body-container .right-button {
+  position: absolute;
+  top: 373px;
+  right: 42px;
+}
+.body-container .right-button img {
+  height: 22px;
+}
+.body-container .nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1170px;
+  justify-content: flex-start;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 233px;
+  margin-left: 375px;
+  margin-right: 375px;
+}
+.body-container .nav-container .site-name {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+  margin-right: 122px;
+}
+.body-container .nav-container .nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.body-container .nav-container .nav .nav-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+}
+.body-container .nav-container .nav .nav-option i {
+  margin-right: 28px;
+}
+.body-container .nav-container .nav .nav-option .title {
+  margin-right: 10px;
+}
+.body-container .nav-container .nav .nav-option #underline {
+  width: 80px;
+  height: 4px;
+  background-color: #ff3f81;
+  top: 39px;
+  right: 28px;
+  position: absolute;
+}
+.body-container .nav-container .more-options-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.125px;
+  margin-left: 34px;
+}
+.body-container .nav-container .more-options-container img {
+  margin-right: 14px;
+  height: 18px;
+  margin-top: 4px;
+}
+.body-container .nav-container .more-options-container .line {
+  margin-right: 13px;
+  width: 1px;
+  height: 30px;
+  background-color: #5c5c5b;
+}
+.body-container .other-body {
+  text-align: center;
+}
+.body-container .other-body .sub-heading {
+  color: #bdbdbd;
+  height: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 0.25px;
+}
+.body-container .other-body .heading {
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+  font-weight: 800;
+  margin-left: 8px;
+}
+.body-container .other-body button {
+  margin-top: 33px;
+  padding: 13px 27px;
+  font-size: 17px;
+  border-style: none;
+  border-radius: 27.5px;
+  background-color: #2e3e9c;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+.body-container .other-body .user-img {
+  margin-top: 78px;
+  height: 51px;
+}
+.body-container .other-body .username {
+  margin-top: 12px;
+  color: #dbdbdb;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+.body-container .other-body .date-time-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.875px;
+  font-weight: 600;
+  color: #6d6c6d;
+  letter-spacing: 0.625px;
+  margin-bottom: 35px;
+}
+.body-container .other-body .date-time-container .date {
+  margin-right: 10px;
+}
+.body-container .other-body .comment-like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.875px;
+  font-weight: 600;
+  color: #6d6c6d;
+  letter-spacing: 0.625px;
+  margin-right: 2px;
+  word-spacing: 1px;
+}
+.body-container .other-body .comment-like-container .number-margin {
+  margin-right: 1px;
+}
+.body-container .other-body .comment-like-container img {
+  height: 13px;
+}
+.body-container .other-body .comment-like-container .comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 28px;
+}
+.body-container .other-body .comment-like-container .comment-container img {
+  margin-right: 7px;
+}
+.body-container .other-body .comment-like-container .like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.body-container .other-body .comment-like-container .like-container img {
+  height: 12.5px;
+  margin-right: 4px;
+}
+
+.nav-option,
+.more-options-container img,
+button,
+.left-button,
+.right-button,
+.language-select,
+.sign-in-container,
+a :hover {
+  cursor: pointer;
+}
+
+.whole-second-container {
+  background-color: #f5f5f5;
+}
+.whole-second-container .second-page-container .nav-parent-container {
+  background-color: #ffffff;
+}
+.whole-second-container .second-page-container .nav-parent-container .nav-container {
+  height: 61px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.whole-second-container .second-page-container .nav-parent-container .nav-container .sort-blog {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-right: 21px;
+}
+.whole-second-container .second-page-container .nav-parent-container .nav-container .selected-option {
+  margin-bottom: 1px;
+  padding: 8px 31px 6px 26px;
+  color: #4455b7;
+  border-radius: 20px;
+  font-size: 11px;
+  border: 1px solid #4455b7;
+  margin-right: 15px;
+}
+.whole-second-container .second-page-container .nav-parent-container .nav-container .other-options {
+  margin-bottom: 1px;
+  padding: 8px 29px 6px 26px;
+  border-radius: 20px;
+  font-size: 11px;
+  background-color: #f5f5f5;
+  margin-right: 15px;
+  letter-spacing: 0.5px;
+}
+.whole-second-container .second-page-container .body-container-2 {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container {
+  margin-top: 30px;
+  width: 820px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-bottom: 2px solid #e1e1e1;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img {
+  position: relative;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .pause {
+  position: absolute;
+  right: 380px;
+  top: 180px;
+  color: #ffffff;
+  font-size: 60px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .icon-text {
+  position: absolute;
+  display: flex;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 12px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .icon-text span {
+  font-size: 15px;
+  margin-right: 7px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .icon-text .comment {
+  display: flex;
+  margin-right: 22px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .icon-text .comment div {
+  font-weight: 400;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .icon-text .like {
+  display: flex;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .master-img .icon-text .like div {
+  font-weight: 400;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .text-container {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .text-container .bold-text {
+  font-size: 18.75px;
+  font-weight: 700;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .text-container .normal-text {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  word-spacing: 0.69px;
+  margin-top: 6px;
+  line-height: 27px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .line {
+  margin-top: 10px;
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .author-details {
+  height: 91px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .author-details img {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 9px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .author-details .name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .author-details .date {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #878787;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+}
+.whole-second-container .second-page-container .body-container-2 .main-post-container .author-details .option {
+  position: absolute;
+  top: 32px;
+  right: 11px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual {
+  position: relative;
+  width: 820px;
+  height: 167px;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 5px;
+  border-bottom: 2px solid #e1e1e1;
+  margin-bottom: 19px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .text {
+  position: absolute;
+  color: white;
+  left: 19px;
+  bottom: 17px;
+  font-size: 12px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .pause {
+  position: absolute;
+  color: #ffffff;
+  font-size: 50px;
+  left: 105px;
+  top: 57px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .icon-text {
+  position: absolute;
+  display: flex;
+  color: white;
+  font-size: 12px;
+  left: 157px;
+  bottom: 17px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .icon-text span {
+  font-size: 15px;
+  margin-right: 7px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .icon-text .comment {
+  display: flex;
+  margin-right: 22px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .icon-text .comment div {
+  font-weight: 400;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .icon-text .like {
+  display: flex;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .img-icons .icon-text .like div {
+  font-weight: 400;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .right-upper-side {
+  margin-top: 10px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .right-upper-side .bold-text {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  margin-left: 19px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .right-upper-side .normal-text {
+  margin-top: 9px;
+  font-size: 14px;
+  word-spacing: 0.1px;
+  line-height: 20px;
+  margin-left: 19px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .horizontal-post-individual .right-upper-side .line {
+  margin-top: 16px;
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .author-details {
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 21px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .author-details img {
+  margin-right: 10px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .author-details .name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .author-details .date {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #878787;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+}
+.whole-second-container .second-page-container .body-container-2 .horizontal-posts-container .author-details .option {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card {
+  width: 260px;
+  margin-right: 20px;
+  background-color: #ffffff;
+  height: 420px;
+  border-radius: 5px;
+  border-bottom: 2px solid #e1e1e1;
+  position: relative;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .pause {
+  position: absolute;
+  color: white;
+  top: 56px;
+  left: 106px;
+  font-size: 48px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .text {
+  position: absolute;
+  font-size: 11px;
+  color: white;
+  top: 134px;
+  left: 20px;
+  letter-spacing: 0.5px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text {
+  position: absolute;
+  display: flex;
+  color: white;
+  font-size: 12px;
+  left: 157px;
+  top: 134px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text span {
+  font-size: 15px;
+  margin-right: 7px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text .comment {
+  display: flex;
+  margin-right: 22px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text .comment div {
+  font-weight: 400;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text .like {
+  display: flex;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text .like div {
+  font-weight: 400;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .text-container {
+  margin: 8px 21px 28px 20px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .text-container .bold-text {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 7px;
+  line-height: 24px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .text-container .normal-text {
+  font-size: 14px;
+  word-spacing: 0.1px;
+  line-height: 20px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .line {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .author-details {
+  position: relative;
+  display: flex;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .author-details .author-image {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .author-details .name {
+  margin-left: 11px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  word-spacing: 1px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .author-details .date {
+  margin-left: 10px;
+  margin-top: 7px;
+  font-size: 12px;
+  color: #878787;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .author-details .option {
+  position: absolute;
+  right: 5px;
+  top: 18.5px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasco Home Page</title>
+
+    <link rel="stylesheet" href="assets/style/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/ff3c9ba057.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="first-page-container">
+      <header>
+        <div class="header-components-container">
+          <div class="left-icon-container">
+            <a href="#"> <i class="fa-brands fa-facebook-f"></i> </a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="#"> <i class="fa-brands fa-pinterest-p"></i> </a>
+            <a href="#"> <i class="fa-brands fa-vk"></i> </a>
+            <a href="#"> <i class="fa-brands fa-google-plus-g"></i> </a>
+            <a href="#"> <i class="fa-brands fa-behance"></i> </a>
+            <a href="#"> <i class="fa-brands fa-dribbble"></i> </a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+          </div>
+
+          <div class="right-container">
+            <div class="sign-in-container">
+              <i class="fa-solid fa-circle-user fa-lg"></i>
+              <div>SIGN IN</div>
+            </div>
+            <div id="symbol"></div>
+            <div class="language-select">
+              <span class="material-icons" id="lang-ico-nav"> language </span>
+              <div>ENG</div>
+              <i class="fa-solid fa-angle-down" id="nav-lang"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="body-container" id="bg">
+        <div class="background-image">
+          <!-- <img id="bg" src="assets/images/bg_copy_2.jpg" alt=""> -->
+        </div>
+
+        <div class="left-button" onclick="slideLeft()">
+          <img src="assets/images/keyboard_arrow_left_2.png" alt="" />
+        </div>
+        <div class="right-button" onclick="slideRight()">
+          <img src="assets/images/keyboard_arrow_left_copy.png" alt="" />
+        </div>
+
+        <div class="nav-container">
+          <div class="site-name">PASCO</div>
+
+          <div class="nav">
+            <div class="nav-option">
+              <div class="title">HOME</div>
+              <i class="fa-solid fa-angle-down"></i>
+              <div id="underline"></div>
+            </div>
+            <div class="nav-option">
+              <div class="title">PORTFOLIO</div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-option">
+              <div class="title">BLOG</div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-option">
+              <div class="title">PAGES</div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-option">
+              <div class="title">SHOP</div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-option">
+              <div class="title" style="padding-left: 3px">COMPONENTS</div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="nav-option" style="margin: 0">
+              <div class="title">FEATURES</div>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+
+          <div class="more-options-container">
+            <img src="assets/images/search_2.png" alt="" />
+            <div class="line"></div>
+            <img src="assets/images/heart_ico.png" alt="" />
+            <div class="line"></div>
+            <img src="assets/images/shopping_cart.png" alt="" />
+          </div>
+        </div>
+        <div class="other-body">
+          <div class="middle-text-container">
+            <div class="sub-heading">INSPIRATION</div>
+            <div class="heading">5 WAYS MILLLENNIALS CAN START</div>
+
+            <div class="heading heading2">BUILDING THEIR FUTURE TODAY</div>
+            <button>READ MORE</button><br />
+
+            <img class="user-img" src="assets/images/ellipse_4_10.png" alt="" />
+
+            <div class="username"><a href="#" style="text-decoration: none; color: #ffffff">Henry Little</a></div>
+
+            <div class="date-time-container">
+              <div class="date">Apri 28, 2016</div>
+              <div class="time">10:15</div>
+            </div>
+
+            <fiv class="comment-like-container">
+              <div class="comment-container">
+                <img
+                  id="comment-image"
+                  src="assets/images/forum_10.png"
+                  alt=""
+                />
+                <div><a href="#" style="text-decoration: none; color: #6d6c6d""><span class="number-margin">Comments </span>(28)</a></div>
+              </div>
+              <div class="like-container">
+                <img src="assets/images/favorite_border_10.png" alt="" />
+                <div><a href="#" style="text-decoration: none; color: #6d6c6d"><span class="number-margin">Likes </span>(07)</a></div>
+              </div>
+            </fiv>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- SECOND PAGE -->
+
+    <div class="whole-second-container">
+      <div class="second-page-container">
+        <div class="nav-parent-container">
+          <div class="nav-container">
+            <div class="sort-blog">SORT BLOG:</div>
+            <button style="border: none; background-color: #ffffff;"><div class="selected-option">ALL</div></button>
+            <button style="border: none; background-color: #ffffff;"></button><div class="other-options">PHOTOGRAPHY</div></button>
+            <button style="border: none; background-color: #ffffff;"></button><div class="other-options">LIFESTYLE</div></button>
+            <button style="border: none; background-color: #ffffff;"></button><div class="other-options">TRIP</div></button>
+            <button style="border: none; background-color: #ffffff;"></button><div class="other-options">INSPIRATION</div></button>
+          </div>
+        </div>
+
+        <div class="body-container-2">
+          <div class="main-post-container">
+            <div class="master-img">
+              <img class="rel-img" src="assets/images/box_18.png" alt="" />
+              <div class="text">LIFESTYLE</div>
+              <span class="material-icons pause"> play_circle_outline </span>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>7</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-container">
+              <div class="bold-text">
+                10 Things To Do To Change Your Life Forever
+              </div>
+              <div class="normal-text">
+                The one constant thing in our life is change. We cannot avoid it
+                and the more we resist change the tougher our life becomes. I
+                know this because I was very skilled at deflecting change in
+                life.
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="author-details">
+              <img src="assets/images/ellipse_4_3.png" alt="" />
+              <div class="name-date">
+                <div class="name">Henry Little</div>
+                <div class="date">Aprl 28, 2016 &nbsp; 10:15</div>
+              </div>
+              <div class="option">
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="horizontal-posts-container">
+          <div class="horizontal-post-individual">
+            <div class="img-container">
+                <img src="assets/images/box_16.png" alt="">
+            </div>
+
+            <div class="img-icons">
+              <div class="text">INSPIRATION</div>
+              <span class="material-icons pause"> play_circle_outline </span>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>7</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+            </div>
+            <div class="right-upper-side">
+              <div class="bold-text">4 Natural Ways To Have Young Skin</div>
+              <div class="normal-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar. </div>
+              <div class="line"></div>
+              <div class="author-details">
+                <img src="assets/images/ellipse_4_2.png" alt="" />                
+                <div class="name-date">
+                  <div class="name">James Leman</div>
+                  <div class="date">April 28, 2016</div>
+                </div>
+                <div class="option">
+                  <span class="material-icons option"> more_vert </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+
+
+        <div class="horizontal-post-individual">
+            <div class="img-container">
+                <img src="assets/images/box_14.png" alt="">
+            </div>
+
+            <div class="img-icons">
+              <div class="text">INSPIRATION</div>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>7</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+            </div>
+            <div class="right-upper-side">
+              <div class="bold-text">Six Hobbies That Can Help You Beat Stress</div>
+              <div class="normal-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar. </div>
+              <div class="line"></div>
+              <div class="author-details">
+                <img src="assets/images/ellipse_4.png" alt="" />                
+                <div class="name-date">
+                  <div class="name">James Leman</div>
+                  <div class="date">April 28, 2016</div>
+                </div>
+                <div class="option">
+                  <span class="material-icons option"> more_vert </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="horizontal-post-individual">
+            <div class="img-container">
+                <img src="assets/images/box_12.png" alt="">
+            </div>
+
+            <div class="img-icons">
+              <div class="text">INSPIRATION</div>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>7</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+            </div>
+            <div class="right-upper-side">
+              <div class="bold-text">10 Signals From Your Body Telling You Should Sleep More</div>
+              <div class="normal-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vehicula lorem and lacus. Vestibulum vitae mauris lorem ipsum doar. </div>
+              <div class="line"></div>
+              <div class="author-details">
+                <img src="assets/images/ellipse_4_3.png" alt="" />                
+                <div class="name-date">
+                  <div class="name">Benjamin Miller</div>
+                  <div class="date">April 28, 2016</div>
+                </div>
+                <div class="option">
+                  <span class="material-icons option"> more_vert </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="vertical-small-cards-container">
+            <div class="individual-card">
+                <img class="top-img" src="assets/images/box_10.png" alt="">
+
+                <div class="icons-on-image">
+                  <span class="material-icons pause"> play_circle_outline </span>
+                  <div class="text">INSPIRATION</div>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>7</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+            </div>
+                </div>
+
+                <div class="text-container">
+                    <div class="bold-text">Food That Actually Taste 
+                        Better When You Freeze </div>
+                    <div class="normal-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="author-details">
+                    <img class="author-image" src="assets/images/ellipse_4_2.png" alt="">
+                    <div class="name-date">
+                        <div class="name">James Leman</div>
+                        <div class="date">April 28, 2016</div>
+                    </div>
+                    <div class="option">
+                      <span class="material-icons option"> more_vert </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- CARD 2 -->
+            <div class="individual-card">
+                <img class="top-img" src="/assets/images/box_8.png" alt="">
+
+                <div class="icons-on-image">
+                  
+                  <div class="text">TRIP</div>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>3</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+            </div>
+                </div>
+
+                <div class="text-container">
+                    <div class="bold-text">Why It’s Amazing To Date
+                      People Who Love Traveling </div>
+                    <div class="normal-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="author-details">
+                    <img class="author-image" src="assets/images/ellipse_4.png" alt="">
+                    <div class="name-date">
+                        <div class="name">Benjamin Miller</div>
+                        <div class="date">April 28, 2016</div>
+                    </div>
+                    <div class="option">
+                      <span class="material-icons option"> more_vert </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- CARD 3 -->
+            <div class="individual-card">
+                <img class="top-img" src="/assets/images/box_6.png" alt="">
+
+                <div class="icons-on-image">
+                  
+                  <div class="text">INSPIRATION</div>
+              <div class="icon-text">
+                <div class="comment">
+                  <span class="material-icons"> forum </span>
+                  <div>18</div>
+                </div>
+                <div class="like">
+                  <span class="material-icons"> favorite_border </span>
+                  <div>15</div>
+                </div>
+            </div>
+                </div>
+
+                <div class="text-container">
+                    <div class="bold-text">5 Useful Tips for Novice
+                      Painters </div>
+                    <div class="normal-text">Lorem ipsum dolor sit amet, to consectetur  adipi scing elit. Nulla vel vehicula lorem and lacus. Vestibulum vitae mauris. </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="author-details">
+                    <img class="author-image" src="assets/images/ellipse_4_3.png" alt="">
+                    <div class="name-date">
+                        <div class="name">Henry Little</div>
+                        <div class="date">April 28, 2016</div>
+                    </div>
+                    <div class="option">
+                      <span class="material-icons option"> more_vert </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        continue from here
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
