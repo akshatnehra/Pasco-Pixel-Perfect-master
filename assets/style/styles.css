@@ -603,6 +603,22 @@ a :hover {
 .whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .icon-text .like div {
   font-weight: 400;
 }
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .left {
+  position: absolute;
+  top: 60px;
+  left: 11px;
+  color: #3f51b5;
+  padding: 6px;
+  background-color: #ffffff;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .icons-on-image .right {
+  position: absolute;
+  color: #3f51b5;
+  padding: 6px;
+  background-color: #ffffff;
+  right: 11px;
+  top: 60px;
+}
 .whole-second-container .second-page-container .body-container-2 .vertical-small-cards-container .individual-card .text-container {
   margin: 8px 21px 28px 20px;
 }
@@ -650,4 +666,91 @@ a :hover {
   position: absolute;
   right: 5px;
   top: 18.5px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container {
+  display: flex;
+  width: 820px;
+  justify-content: space-between;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .individual-card {
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  border-bottom: 2px solid #e1e1e1;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .text-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 9px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .text-container .bold-text {
+  font-size: 18.75px;
+  font-weight: 700;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .text-container #selected {
+  color: #3f51b5;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .text-container .normal-text {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  word-spacing: 0.69px;
+  margin-top: 5px;
+  line-height: 27px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .author-details {
+  height: 91px;
+  width: 100%;
+  display: flex;
+  padding-top: 26px;
+  position: relative;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .author-details img {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 9px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .author-details .name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 6px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .author-details .date {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #878787;
+  letter-spacing: 0.8px;
+  font-weight: 300;
+  word-spacing: 2px;
+}
+.whole-second-container .second-page-container .body-container-2 .vertical-two-cards-container .author-details .option {
+  position: absolute;
+  top: 38px;
+  right: 10px;
+}
+.whole-second-container .second-page-container .more-container {
+  height: 125px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whole-second-container .second-page-container .more-container .main-more-container {
+  width: 820px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #303f9f;
+}
+.whole-second-container .second-page-container .more-container .main-more-container div {
+  margin-right: 8px;
+}
+.whole-second-container .second-page-container .more-container .main-more-container span {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.whole-second-container .second-page-container .bottom-photos-container {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
