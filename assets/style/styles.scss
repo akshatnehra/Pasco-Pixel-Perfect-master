@@ -1035,7 +1035,7 @@ a :hover {
               display: flex;
             }
 
-            .button-container::before{
+            .button-container::before {
               width: 50%;
               height: 100%;
               content: "RECENT POST";
@@ -1063,6 +1063,81 @@ a :hover {
               display: flex;
               justify-content: center;
               align-items: center;
+            }
+
+            .card-container {
+              margin-top: 20px;
+              .individual-card {
+                height: 79px;
+                width: 270px;
+                display: flex;
+                margin-bottom: 32px;
+
+                .user-img {
+                  margin-right: 15px;
+                }
+
+                .text-container {
+                  .upper-part {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 12px;
+
+                    .msg {
+                      display: flex;
+
+                      .icon {
+                        font-size: 16px;
+                        margin-right: 5px;
+                        color: #3f51b5;
+                      }
+
+                      .text {
+                        margin-top: 1px;
+                        color: #b9c5cd;
+                      }
+                    }
+                  }
+
+                  .lower-part {
+                    font-size: 14px;
+                    font-weight: 700;
+                    word-spacing: 2px;
+                    line-height: 20px;
+                  }
+                }
+              }
+            }
+
+            .tags-container {
+              .heading {
+                margin-top: 48px;
+                color: #3f51b5;
+                font-weight: 700;
+                font-size: 18px;
+                word-spacing: 1px;
+                margin-bottom: 26px;
+              }
+
+              .individual-tags-container{
+                display: flex;
+                flex-wrap: wrap;
+                width: 270px;
+                justify-content: flex-start;
+
+                .individual-tag{
+                  margin-right: 10px;
+                  background-color: #ededed;
+                  width: fit-content;
+                  padding: 5px 14px;
+                  border-radius: 5px;
+                  font-size: 14px;
+                  font-family: "Open Sans", sans-serif;
+                  letter-spacing: 0.5px;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                }
+              }
             }
           }
         }
@@ -1105,5 +1180,51 @@ a :hover {
   .newsletter-container {
     display: flex;
     justify-content: center;
+    position: relative;
+
+    .text-container{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      height: 199px;
+      width: 1170px;
+
+      .text{
+        color: white;
+        font-size: 45px;
+        font-weight: 800;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 1px;
+      }
+
+      input{
+        width: 270px;
+        height: 45px;
+        background-color: transparent;
+        border: 1px solid #747678;
+        border-radius: 30px;
+        padding-left: 20px;
+        color: #9b9b9c;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        letter-spacing: 1px;
+        margin-top: 2px;
+      }
+
+      button{
+        width: 170px;
+        height: 45px;
+        color: white;
+        background-color: #2f3f9f;
+        border-style: none;
+        border-radius: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 2.5px;
+      }
+    }
   }
 }
