@@ -102,7 +102,7 @@ header .header-components-container .right-container .language-select {
   justify-content: flex-start;
   position: relative;
   padding-bottom: 67px;
-  background-image: url(/assets/images/bg_copy_2.jpg);
+  background-image: url(assets/images/bg_copy_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
