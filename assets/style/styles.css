@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +13,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #212121;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 header {
@@ -102,7 +110,7 @@ header .header-components-container .right-container .language-select {
   justify-content: flex-start;
   position: relative;
   padding-bottom: 67px;
-  background-image: url(assets/images/bg_copy_2.jpg);
+  background-image: url(/assets/images/bg_copy_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -168,6 +176,9 @@ header .header-components-container .right-container .language-select {
   position: relative;
   font-size: 14px;
   font-weight: 600;
+}
+.body-container .nav-container .nav .nav-option #components {
+  padding-left: 3px;
 }
 .body-container .nav-container .nav .nav-option i {
   margin-right: 28px;
@@ -239,7 +250,7 @@ header .header-components-container .right-container .language-select {
 }
 .body-container .other-body .username {
   margin-top: 12px;
-  color: #dbdbdb;
+  color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: 700;
@@ -252,7 +263,7 @@ header .header-components-container .right-container .language-select {
   justify-content: center;
   font-size: 11.875px;
   font-weight: 600;
-  color: #6d6c6d;
+  color: #9c9c9c;
   letter-spacing: 0.625px;
   margin-bottom: 35px;
 }
@@ -282,6 +293,7 @@ header .header-components-container .right-container .language-select {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  color: #bdbdbd;
   margin-right: 28px;
 }
 .body-container .other-body .comment-like-container .comment-container img {
@@ -292,19 +304,17 @@ header .header-components-container .right-container .language-select {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  color: #bdbdbd;
 }
 .body-container .other-body .comment-like-container .like-container img {
   height: 12.5px;
   margin-right: 4px;
 }
 
-.nav-option,
-.more-options-container img,
 button,
 .left-button,
 .right-button,
-.language-select,
-.sign-in-container,
+.option,
 a :hover {
   cursor: pointer;
 }
@@ -323,6 +333,10 @@ a :hover {
   display: flex;
   align-items: center;
 }
+.whole-second-container .second-page-container .nav-parent-container .nav-container button {
+  border: none;
+  background-color: #ffffff;
+}
 .whole-second-container .second-page-container .nav-parent-container .nav-container .sort-blog {
   font-size: 11px;
   font-weight: 700;
@@ -331,7 +345,7 @@ a :hover {
 }
 .whole-second-container .second-page-container .nav-parent-container .nav-container .selected-option {
   margin-bottom: 1px;
-  padding: 8px 31px 6px 26px;
+  padding: 9px 31px 7px 26px;
   color: #4455b7;
   border-radius: 20px;
   font-size: 11px;
@@ -340,7 +354,7 @@ a :hover {
 }
 .whole-second-container .second-page-container .nav-parent-container .nav-container .other-options {
   margin-bottom: 1px;
-  padding: 8px 29px 6px 26px;
+  padding: 10px 30px 9px 29px;
   border-radius: 20px;
   font-size: 11px;
   background-color: #f5f5f5;
@@ -405,6 +419,7 @@ a :hover {
 }
 .whole-second-container .second-page-container .body-container-2 .main-post-container .text-container {
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 10px;
 }
 .whole-second-container .second-page-container .body-container-2 .main-post-container .text-container .bold-text {
@@ -769,6 +784,9 @@ a :hover {
   top: 5px;
   left: 230px;
 }
+.whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .search-bar .search-icon:hover {
+  cursor: pointer;
+}
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .categories-container .category-heading {
   color: #3f51b5;
   font-weight: 700;
@@ -899,6 +917,9 @@ a :hover {
   font-size: 12px;
   display: flex;
 }
+.whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .button-container:hover {
+  cursor: pointer;
+}
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .button-container::before {
   width: 50%;
   height: 100%;
@@ -935,22 +956,27 @@ a :hover {
   width: 270px;
   display: flex;
   margin-bottom: 32px;
+  font-family: "Open Sans", sans-serif;
 }
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .card-container .individual-card .user-img {
   margin-right: 15px;
+  min-width: 100px;
 }
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .card-container .individual-card .text-container .upper-part {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
+  line-height: 0.75;
+  margin-bottom: 5px;
 }
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .card-container .individual-card .text-container .upper-part .msg {
   display: flex;
 }
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .card-container .individual-card .text-container .upper-part .msg .icon {
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 5px;
   color: #3f51b5;
+  line-height: 7px;
 }
 .whole-second-container .second-page-container .body-container-2 .second-page-aside-container .content-container .widget-container .card-container .individual-card .text-container .upper-part .msg .text {
   margin-top: 1px;
@@ -1020,6 +1046,9 @@ a :hover {
   display: flex;
   justify-content: center;
   position: relative;
+}
+.whole-second-container .newsletter-container img {
+  width: 100vw;
 }
 .whole-second-container .newsletter-container .text-container {
   position: absolute;
